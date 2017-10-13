@@ -47,7 +47,7 @@ public class CountryListActivity extends AppCompatActivity {
                 AlertDialog.Builder builder = new AlertDialog.Builder(CountryListActivity.this);
                 builder.setTitle(R.string.confirm);
                 String msg = getResources().getString(R.string.confirm_message);
-                builder.setMessage(msg + country_list.get(pos) + "?");
+                builder.setMessage(msg + " " + country_list.get(pos) + "?");
                 builder.setPositiveButton(R.string.erase, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {

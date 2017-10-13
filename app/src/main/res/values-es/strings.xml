@@ -3,5 +3,5 @@
     <string name="app_name">Lista de Países</string>
     <string name="confirm">Confirmación</string>
     <string name="erase">Borrar</string>
-    <string name="confirm_message">Seguro que quieres borrar</string>
+    <string name="confirm_message">Seguro que quieres borrar </string>
 </resources>
