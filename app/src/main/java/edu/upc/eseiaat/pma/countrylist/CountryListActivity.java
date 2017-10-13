@@ -39,5 +39,13 @@ public class CountryListActivity extends AppCompatActivity {
                 ).show();
             }
         });
+        list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View item, int pos, long id) {
+                country_list.remove(pos);
+                adapter.notifyDataSetChanged();
+                return true;
+            }
+        });
     }
 }
